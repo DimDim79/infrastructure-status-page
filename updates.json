@@ -1,0 +1,143 @@
+{
+  "updates": [
+    {
+      "id": "2024-09-20-001",
+      "timestamp": "2024-09-20T14:30:00Z",
+      "title": "Database Migration Phase 2 Completed",
+      "description": "Successfully completed migration of production databases to Azure SQL. All data integrity checks passed. Application connections updated and tested.",
+      "status": "operational",
+      "severity": "low",
+      "services": ["Databases", "Core Applications"],
+      "resolved": true,
+      "resolvedAt": "2024-09-20T14:30:00Z"
+    },
+    {
+      "id": "2024-09-20-002",
+      "timestamp": "2024-09-20T10:15:00Z",
+      "title": "Network Configuration Updates",
+      "description": "Implementing network security groups and firewall rules. Some temporary connectivity delays may occur during the transition window.",
+      "status": "maintenance",
+      "severity": "medium",
+      "services": ["Network", "Security"],
+      "resolved": false
+    },
+    {
+      "id": "2024-09-19-001",
+      "timestamp": "2024-09-19T16:45:00Z",
+      "title": "VM Migration Batch 3 Complete",
+      "description": "Successfully migrated 45 virtual machines to Azure. All services are operational and performance monitoring is active.",
+      "status": "operational",
+      "severity": "low",
+      "services": ["Virtual Machines", "Infrastructure"],
+      "resolved": true,
+      "resolvedAt": "2024-09-19T17:20:00Z"
+    },
+    {
+      "id": "2024-09-19-002",
+      "timestamp": "2024-09-19T09:30:00Z",
+      "title": "Storage Account Synchronization Issue",
+      "description": "Encountered synchronization delays with storage accounts. Issue resolved by adjusting replication settings. No data loss occurred.",
+      "status": "operational",
+      "severity": "high",
+      "services": ["Storage", "File Services"],
+      "resolved": true,
+      "resolvedAt": "2024-09-19T11:15:00Z"
+    },
+    {
+      "id": "2024-09-18-001",
+      "timestamp": "2024-09-18T13:20:00Z",
+      "title": "Load Balancer Configuration",
+      "description": "Configuring Azure Load Balancer for web applications. Traffic routing optimized for improved performance.",
+      "status": "operational",
+      "severity": "low",
+      "services": ["Load Balancing", "Web Applications"],
+      "resolved": true,
+      "resolvedAt": "2024-09-18T15:00:00Z"
+    },
+    {
+      "id": "2024-09-18-002",
+      "timestamp": "2024-09-18T08:00:00Z",
+      "title": "DNS Migration Phase 1",
+      "description": "Beginning DNS migration to Azure DNS. Some services may experience brief resolution delays during the cutover period.",
+      "status": "operational",
+      "severity": "medium",
+      "services": ["DNS", "Domain Services"],
+      "resolved": true,
+      "resolvedAt": "2024-09-18T10:30:00Z"
+    },
+    {
+      "id": "2024-09-17-001",
+      "timestamp": "2024-09-17T14:10:00Z",
+      "title": "Backup Verification Complete",
+      "description": "All critical data backups verified and tested. Recovery procedures documented and validated.",
+      "status": "operational",
+      "severity": "low",
+      "services": ["Backup Services", "Data Protection"],
+      "resolved": true,
+      "resolvedAt": "2024-09-17T16:45:00Z"
+    },
+    {
+      "id": "2024-09-17-002",
+      "timestamp": "2024-09-17T11:30:00Z",
+      "title": "Security Group Configuration",
+      "description": "Implementing network security groups and access controls. Enhanced security posture for migrated resources.",
+      "status": "operational",
+      "severity": "low",
+      "services": ["Security", "Network"],
+      "resolved": true,
+      "resolvedAt": "2024-09-17T13:15:00Z"
+    },
+    {
+      "id": "2024-09-16-001",
+      "timestamp": "2024-09-16T15:45:00Z",
+      "title": "Application Server Migration",
+      "description": "Migrating application servers to Azure Virtual Machines. Staggered approach to minimize service disruption.",
+      "status": "operational",
+      "severity": "medium",
+      "services": ["Application Servers", "Virtual Machines"],
+      "resolved": true,
+      "resolvedAt": "2024-09-16T18:30:00Z"
+    },
+    {
+      "id": "2024-09-16-002",
+      "timestamp": "2024-09-16T09:15:00Z",
+      "title": "Monitoring Systems Setup",
+      "description": "Deploying Azure Monitor and Application Insights for comprehensive monitoring of migrated resources.",
+      "status": "operational",
+      "severity": "low",
+      "services": ["Monitoring", "Observability"],
+      "resolved": true,
+      "resolvedAt": "2024-09-16T11:00:00Z"
+    },
+    {
+      "id": "2024-09-15-001",
+      "timestamp": "2024-09-15T12:00:00Z",
+      "title": "Pre-Migration Testing Complete",
+      "description": "All pre-migration tests completed successfully. Migration runbooks validated and team briefings conducted.",
+      "status": "operational",
+      "severity": "low",
+      "services": ["Testing", "Migration Planning"],
+      "resolved": true,
+      "resolvedAt": "2024-09-15T14:30:00Z"
+    },
+    {
+      "id": "2024-09-15-002",
+      "timestamp": "2024-09-15T08:30:00Z",
+      "title": "Infrastructure Assessment",
+      "description": "Final infrastructure assessment completed. All systems ready for migration phases. Resource allocation confirmed.",
+      "status": "operational",
+      "severity": "low",
+      "services": ["Infrastructure", "Planning"],
+      "resolved": true,
+      "resolvedAt": "2024-09-15T10:15:00Z"
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2024-09-20T14:30:00Z",
+    "version": "1.0",
+    "project": "Infrastructure Lift & Shift",
+    "totalIncidents": 12,
+    "resolvedIncidents": 11,
+    "activeIncidents": 1
+  }
+}
